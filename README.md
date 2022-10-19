@@ -1,2 +1,2 @@
 # animation
-animation practive
+animation practice
