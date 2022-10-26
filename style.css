@@ -18,3 +18,20 @@ body {
     75% {background-color: purple;}
     100% {background-color: blue;}
 }
+
+.child {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 4s;
+}
+
+@keyframes myanimation {
+    0% {background-color: white;}
+    25% {background-color: red;}
+    50% {background-color: green;}
+    75% {background-color: purple;}
+    100% {background-color: blue;}
+}
