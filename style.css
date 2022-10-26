@@ -7,4 +7,11 @@ body {
     height: 300px;
     width: 300px;
     position: relative;
+    animation-name: myanimation;
+    animation-duration: 4s;
+}
+
+@keyframes myanimation {
+    0% {background-color: white;}
+    100% {background-color: blue;}
 }
