@@ -26,6 +26,7 @@ body {
     position: relative;
     animation-name: animation;
     animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes animation {
