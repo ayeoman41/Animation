@@ -59,3 +59,24 @@ body {
     75% {background-color: purple; border-radius: 50% 50% 50% 0%}
     100% {background-color: blue; border-radius: 50% 50% 50% 50%}
 }
+
+.heading {
+    color: white;
+    transition-property: background;
+    transition-duration: 5s;
+}
+
+.heading:hover {
+    color: red;
+}
+
+.container {
+    color: pink;
+    transition: background;
+    border: 1px white solid;
+}
+
+.container:hover {
+    color: white;
+    transform: rotateY(180deg);
+}
