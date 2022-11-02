@@ -2,6 +2,11 @@ body {
     background-color: darkslategray;
 }
 
+#keyframes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .parent {
     background-color: white;
     height: 300px;
@@ -45,7 +50,6 @@ body {
     animation-name: anime;
     animation-duration: 4s;
     animation-iteration-count: infinite;
-    margin-top: 16.5%;
 }
 
 @keyframes anime{
