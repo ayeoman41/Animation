@@ -109,9 +109,21 @@ body {
 }
 
 .button {
+    justify-items: center;
     display: inline-block;
     color: white;
     text-decoration: none;
     padding: 1rem 2rem;
     border: white 1px solid;
+    margin-top: 40px;
+    opacity: 0;
+    animation: btn;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes btn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
