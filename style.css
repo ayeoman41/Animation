@@ -107,3 +107,11 @@ body {
     0% {right:-1000px;}
     100% {right: 0px;}
 }
+
+.button {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border: white 1px solid;
+}
